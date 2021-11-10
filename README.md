@@ -51,8 +51,9 @@ Data Description
 Resources
 =========
 
-- KAGGLE Website <a href="http://www.kaggle.com"></a>
+- KAGGLE Website <a href="http://www.kaggle.com">Go To KAGGLE</a>
 
+- Data Set Direct Download, To download directly the data set please <a href="https://www.kaggle.com/nehasontakke/amazon-unlocked-mobilecsv"> Click here</a>
 
 
 Tools and Libraries
