@@ -29,11 +29,6 @@ We are going to follow the steps below in order to systematically answer the res
 
 - We will use the processed data to calculate the similarity between customers' reviews and predict sentiments for future reviews using classification models.
 
-- We will use multiple linear regression models to predict the customer ratings (Dependent Variable/target) given the textual reviews and the product price as Explanatory variables.
-
-- We will use multi-class classification algorithms to predict the customer ratings given the textual reviews and the product price.
-
-
 
 Data Description
 ================
