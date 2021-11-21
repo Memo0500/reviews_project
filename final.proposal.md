@@ -62,11 +62,9 @@ Results
 <img src="positive.elbow.png">
 <br/>
 
-<img src="neative.elbow.png">
+<img src="negative.elbow.png">
 <br/>
 
-<img src="5.png">
-<br/>
 
 
 
