@@ -90,7 +90,40 @@ Two Latent Topics for negative reviews
 Scatter Text for positive vs negative reviews
 <br/>
 
-3. ### Topic Modeling
+3. ### Classification on Vectorized Text
+
+|Logistic regression|Accuracy|precision|Recall|F1-score|Logistic regression|Accuracy|precision|Recall|F1-score|
+|-------------------|--------|---------|------|--------|-------------------|--------|---------|------|--------|
+|Train              |0.76    |0.8      |0.79  |0.79    |Train              |0.805   |0.813    |0.821 |0.829   |
+|Val                |0.69    |0.69     |0.69  |0.68    |Val                |0.68    |0.677    |0.674 |0.671   |
+|Train-no noise     |0.76    |0.77     |0.76  |0.76    |Train-no noise     |0.76    |0.759    |0.758 |0.757   |
+|Val –no noise      |0.68    |0.68     |0.68  |0.67    |Val –no noise      |0.67    |0.667    |0.664 |0.661   |
+|Train-ngrams       |0.85    |0.86     |0.85  |0.85    |Train-ngrams       |0.85    |0.849    |0.848 |0.847   |
+|Val-ngrams         |0.71    |0.72     |0.71  |0.71    |Val-ngrams         |0.71    |0.709    |0.708 |0.707   |
+|Train-Trigrams     |0.86    |0.87     |0.86  |0.86    |Train-Trigrams     |0.86    |0.859    |0.858 |0.857   |
+|Val-Trigrams       |0.72    |0.72     |0.72  |0.71    |Val-Trigrams       |0.71    |0.707    |0.704 |0.701   |
+
+
+
+|SGB Classifier|Accuracy|precision|Recall|F1-score|
+|--------------|--------|---------|------|--------|
+|Train         |0.74    |0.75     |0.74  |0.73    |
+|Val           |0.67    |0.67     |0.67  |0.66    |
+|Train-no noise|0.71    |0.73     |0.71  |0.7     |
+|Val-no noise  |0.64    |0.65     |0.64  |0.63    |
+|Train -ngrams |0.69    |0.71     |0.69  |0.68    |
+|Val-ngrams    |0.69    |0.64     |0.64  |0.63    |
+|Train-unigrams|0.79    |0.81     |0.79  |0.79    |
+|Val-unigrams  |0.69    |0.7      |0.69  |0.68    |
+
+
+
+Future Work
+===========
+
+- Enhancing machine learning pipeline for better NLP text processing.
+- Trying stacking classifiers and ensemble classifiers on reduced NLP dataset.
+
 
 
 

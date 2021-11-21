@@ -1,0 +1,9 @@
+SGB Classifier ,Accuracy,precision,Recall ,F1-score
+Train ,0.74,0.75,0.74,0.73
+Val,0.67,0.67,0.67,0.66
+Train-no noise,0.71,0.73,0.71,0.7
+Val-no noise,0.64,0.65,0.64,0.63
+Train -ngrams,0.69,0.71,0.69,0.68
+Val-ngrams,0.69,0.64,0.64,0.63
+Train-unigrams,0.79,0.81,0.79,0.79
+Val-unigrams,0.69,0.7,0.69,0.68
