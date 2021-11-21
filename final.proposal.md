@@ -48,7 +48,7 @@ Results
 - We utilized unsupervised machine learning techniques to gain more insights into mobile products reviews of amazon.
 - The dataset contains approximately 417000 records which explain customers’ ratings , sentiments and reviews over a set of predefined mobile products
 
-### Data Understanding
+1. ### Data Understanding
 
 <img src="3.png">
 <br/>
@@ -65,6 +65,32 @@ Results
 <img src="negative.elbow.png">
 <br/>
 
+
+2. ### Clustering 
+
+- By performing clustering on positive reviews and negative reviews separately, we found unequal latent dimensions between these two categories.
+- Positive reviews can be represented sufficiently by only two latent dimensions whereas negative reviews could be represented by more than two latent dimensions with very low overlap.
+
+
+
+<img src="kmeans1.png">
+Five Latent Topics for positive reviews
+<br/>
+
+<img src="kmeans2.png">
+Two Latent Topics for positive reviews
+<br/>
+
+
+<img src="kmeans.2.negative.png">
+Two Latent Topics for negative reviews
+<br/>
+
+<img src="scatter.text.png">
+Scatter Text for positive vs negative reviews
+<br/>
+
+3. ### Topic Modeling
 
 
 
